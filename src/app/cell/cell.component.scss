@@ -1,0 +1,24 @@
+@import url(//fonts.googleapis.com/css?family=Dosis|Gochi+Hand:400italic,700italic,400,700);
+.cell {
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  border: 3px solid #383428;
+  border-top: unset;
+  font-size: 5em;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &.cell0 {
+    border-left: unset;
+    border-right: unset;
+  }
+  &.cell2 {
+    border-right: unset;
+    border-left: unset;
+  }
+  &:hover {
+    background-color: #ff5800;
+  }
+}
